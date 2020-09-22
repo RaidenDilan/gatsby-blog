@@ -34,7 +34,7 @@ export default ({ data }) => {
           <BlogBody key={ node.id }>
             <BlogLink to={ node.fields.slug }>
               <BlogTitle>
-                { node.frontmatter.title} <span>— { node.frontmatter.date }</span>
+                { node.frontmatter.title} <span>— { node.frontmatter.date } Posts</span>
               </BlogTitle>
             </BlogLink>
             <p>{ node.frontmatter.description || node.excerpt }</p>
